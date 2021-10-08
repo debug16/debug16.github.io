@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"
+        href="https://gap-cn-node.oss-cn-shanghai.aliyuncs.com/casaba_plus_assets/prod-2021.05.28-1/static/gap-144.f33f599c3d52f4169adf21ba71bf5cc8.png">
+    <link rel="preload" href="https://at.alicdn.com/t/font_2582857_hoydxkvk1ug.woff2" as="font" type="font/woff2"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/register.js"></script>
+    <title>注册 - Gap中国官网</title>
+</head>
+
+<body>
+    <!-- 容器 -->
+    <div class="container">
+        <!-- 登录 -->
+        <div class="form-container sgin_in">
+            <form name="sgin_in" action="index.html" accept-charset="UTF-8" method="GET">
+                <div class="title">
+                    <h1>sgin in</h1>
+                </div>
+                <div class="icon">
+                    <p><i class="iconfont">&#xe666</i><i class="iconfont">&#xe7e5</i><i class="iconfont">&#xe60a</i></p>
+                </div>
+                <div class="input">
+                    <input type="email" name="Email" required placeholder="Email..." title="请输入邮箱">
+                    <input type="password" name="Password" required value="" maxlength="16" minlength="6"
+                        placeholder="Password..." title="请输入密码：长度在6~16之间，只能包含字母、数字和下划线">
+                </div>
+                <div class="tips">
+                    <p>Forget Your Password</p>
+                </div>
+                <div class="but">
+                    <button type="button">SIGN IN</button>
+                </div>
+            </form>
+
+        </div>
+        <!-- 注册 -->
+        <div class="form-container sgin_up">
+            <form name="sgin_up" method="GET">
+                <div class="title">
+                    <h1>sign up</h1>
+                </div>
+                <div class="icon">
+                    <p><i class="iconfont">&#xe666</i><i class="iconfont">&#xe7e5</i><i class="iconfont">&#xe60a</i>
+                    </p>
+                </div>
+                <div class="input">
+                    <input type="text" name="userName" required placeholder="UserName..." minlength="6" maxlength="16"
+                        title="字母开头，允许5-16字节，允许字母数字下划线">
+                    <input type="email" name="Email" required placeholder="Email..." title="请输入邮箱">
+                    <input type="password" name="Password" required value="" maxlength="16" minlength="6"
+                        placeholder="Password..." title="请输入密码：长度在6~16之间，只能包含字母、数字和下划线">
+                </div>
+                <div class="but">
+                    <button type="button">SIGN UP</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- 覆盖容器 -->
+        <div class="overlay-container">
+            <div class="overlay">
+                <!-- 覆盖左边 -->
+                <div class="overlay-penal overlay-left-container">
+                    <h1>welcome back!</h1>
+                    <p>To keep connected with us please login with your personal info</p>
+                    <button>sign in</button>
+                </div>
+
+                <!-- 覆盖右边 -->
+                <div class="overlay-penal overlay-right-container">
+                    <h1>Hello Friend!</h1>
+                    <p>Enter your personal details and start journey with us</p>
+                    <button>sign up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

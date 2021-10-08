@@ -1,0 +1,242 @@
+.layout-footer {
+  margin-top: 5px;
+}
+.layout-footer .footer-news {
+  color: #fff;
+  background-color: #0d2347;
+  white-space: nowrap;
+}
+.footer-news .footer-news-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88px;
+  max-width: 1440px;
+  font-size: 16px;
+  margin: 0 auto;
+}
+.news-desc-box {
+  margin-right: 16px;
+}
+.news-desc-box p {
+  line-height: 16px;
+}
+.news-desc-box p:first-child {
+  margin-bottom: 8px;
+  font-weight: 300;
+}
+.you-email {
+  margin-right: 56px;
+}
+.you-email form {
+  position: relative;
+  width: 404px;
+  height: 40px;
+}
+.you-email input {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  padding: 0 12px;
+  color: #606266;
+}
+.you-email .icon i {
+  position: absolute;
+  color: #000;
+  font-size: 12px;
+  height: 12px;
+  line-height: 12px;
+  top: 50%;
+  right: 12px;
+  cursor: pointer;
+  transform: translate(0, -50%);
+}
+.you-email a {
+  color: #fff;
+  text-decoration: underline;
+}
+.you-email p {
+  font-size: 12px;
+}
+.focus {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-right: 227px;
+}
+.focus a i {
+  margin-left: 16px;
+  color: #fff;
+  font-size: 40px;
+}
+.focus a:last-child {
+  position: relative;
+}
+.focus a:last-child:hover .qrCode {
+  display: block;
+}
+.focus .qrCode {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: -10px;
+  transform: translateY(10px);
+  width: 175px;
+  padding: 20px 0 16px 0;
+  background-color: #fff;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(111, 111, 111, 1);
+  z-index: 10;
+}
+.focus .qrCode::before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  right: 23px;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  width: 0;
+  height: 0;
+  border-width: 0 5px 5px;
+  border-style: solid;
+  border-color: transparent transparent #fff;
+}
+.focus .qrCode img {
+  width: 95px;
+}
+.focus .qrCode p {
+  margin-top: 12px;
+}
+.footer-online {
+  font-size: 13px;
+}
+.footer-online i {
+  font-size: 13px;
+}
+.footer-online .foot-service {
+  text-align: right;
+}
+
+.footer-content {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 26px 120px 40px 110px;
+  white-space: nowrap;
+}
+.footer-content>div{
+  margin-right: 15px;
+}
+.footer-content p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0d2347;
+  margin-bottom: 15px;
+}
+.footer-content .title-box li,
+.storeQuery span {
+  display: block;
+  font-size: 12px;
+  line-height: 24px;
+  padding: 8px 0;
+  color: #666;
+}
+.footer-content .title-box a {
+  color: #666;
+}
+.footer-content .hotline li span:first-child {
+  color: #333;
+}
+.footer-content .hotline li span:last-child {
+  color: #999;
+}
+.footer-content .stores img {
+  width: 232px;
+  display: block;
+  cursor: pointer;
+  margin-top: 1px;
+  margin-bottom: 16px;
+}
+.footer-content button {
+  margin-bottom: 4px;
+  width: 72px;
+  min-width: 72px;
+  color: #042f6a;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px #042f6a solid;
+  font-size: 12px;
+  height: 28px;
+  line-height: 26px;
+}
+.footer-content .storeQuery span {
+  color: #333;
+}
+.footer-content .aBulk {
+  margin-bottom: 42px;
+}
+.footer-content .giftCard img {
+  width: 170px;
+}
+.copy-right {
+  max-width: 1200px;
+  margin: 0 auto;
+  line-height: 1.2;
+  text-align: center;
+}
+.footnote {
+  margin-bottom: 16px;
+  white-space: nowrap;
+}
+.footnote ul {
+  display: flex;
+  margin: 0 auto;
+  line-height: 21px;
+  justify-content: center;
+  align-items: baseline;
+}
+.footnote ul li i {
+  margin: 0 8px;
+}
+.footnote a,
+.copy-right {
+  font-size: 12px;
+}
+.copy-right {
+  color: #333;
+}
+.copy-right a {
+  color: #333;
+}
+.copy-right img {
+  width: 20px;
+  margin: -2px 4px 0 0;
+}
+.copy-right-note {
+  margin-bottom: 8px;
+}
+.copy-right-note a {
+  text-decoration: underline;
+}
+/* 回到顶部 */
+.back-to-top {
+  display: none;
+  color: #fff;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  background-color: #6581a3;
+  position: fixed;
+  bottom: 100px;
+  right: 52px;
+  border-radius: 2px;
+  text-align: center;
+  z-index: 100;
+}
+.back-to-top i {
+  font-size: 16px;
+  line-height: 28px;
+}

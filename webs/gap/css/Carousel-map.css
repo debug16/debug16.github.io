@@ -1,0 +1,146 @@
+.layout-content {
+  background-color: #fff;
+}
+.map-content {
+  position: relative;
+  overflow: hidden;
+  max-width: 1920px;
+  margin: 0 auto 40px auto;
+}
+.map-content .map {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  transition: transform 1.3s;
+}
+.map-content .map > div {
+  min-width: 100%;
+}
+.map-content .map img {
+  -webkit-user-drag: none;
+  max-width: 100%;
+}
+
+.carousel .icon,
+.map-content .icon {
+  position: absolute;
+  cursor: pointer;
+}
+.map-content .icon i {
+  cursor: pointer;
+  font-size: 74px;
+}
+.map-perv {
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+.map-next {
+  top: 50%;
+  right: 20%;
+  transform: translate(50%, -50%);
+}
+
+/* 轮播图小点 */
+.category {
+  text-align: center;
+  margin-top: 8px;
+}
+.category span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #6581a3;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+/* 推广图 */
+.richtext > div {
+  margin: 0 auto 24px auto;
+  text-align: center;
+  max-width: 100%;
+}
+.richtext > div img {
+  max-width: 100%;
+}
+
+/*商品小图轮播 */
+.carousel {
+  max-width: 1200px;
+  margin: 0 auto 40px auto;
+}
+.view {
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  font-size: 14px;
+}
+.swiper-wrapper {
+  display: flex;
+  transition: transform 0.2s;
+}
+.swiper-wrapper > div {
+  min-width: 19%;
+  margin-left: 1.25%;
+  box-sizing: border-box;
+}
+.swiper-wrapper > div:nth-child(5n + 1) {
+  margin: 0;
+}
+.swiper-wrapper > div:nth-child(5n) {
+  margin: 0 1.25% 0 1.25%;
+}
+.swiper-wrapper > div:first-child {
+  margin: 0;
+}
+.swiper-wrapper a {
+  max-width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.swiper-wrapper .img {
+  margin-bottom: 12px;
+  max-width: 100%;
+}
+.swiper-wrapper .img img {
+  -webkit-user-drag: none;
+  max-width: 100%;
+}
+.title {
+  margin-bottom: 8px;
+  margin-right: 10px;
+  min-height: 40px;
+  line-height: 20px;
+}
+.title a {
+  max-height: 40px;
+}
+.price {
+  margin-bottom: 12px;
+}
+.price del {
+  font-size: 12px;
+  color: #999;
+  margin-left: 6px;
+}
+
+.carousel .map-prev {
+  top: 50%;
+  left: 0;
+  transform: translate(0%, -125%);
+}
+.carousel .map-next {
+  top: 50%;
+  right: 0;
+  transform: translate(0%, -125%);
+}
+.carousel .icon i {
+  font-size: 45px;
+}

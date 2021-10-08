@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>留言板</title>
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/messageBoard.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/messageBoard.js"></script>
+</head>
+
+<body>
+    <div class="messageBox">
+        <h1>留言板</h1>
+        <!-- 输入 -->
+        <div class="inputBox">
+            <div class="inputUserName">
+                <span>用户名：</span><input type="text" placeholder="用户名..." maxlength="20">
+            </div>
+            <div class="inputText">
+                <span>内&nbsp;&nbsp;容：</span>
+                <textarea name="" id="" cols="40" rows="5" placeholder="发一条友善的留意..."></textarea>
+                <button>提交<br>留言</button>
+            </div>
+        </div>
+        <!-- 输出 -->
+        <div class="outputBox">
+            <p class="liuyan">留言</p>
+            <div class="message">
+                <div class="headIcon"><img src="./images/headIcon.webp" alt="头像"></div>
+                <div class="contentBox">
+                    <p class="userName">张三</p>
+                    <div class="content">放假了开心！！！</div>
+                </div>
+                <div class="time">
+                    <div class="delete"><span>×</span></div>
+                    <span>2021.07.10 11:11</span>
+                </div>
+            </div>
+            <div class="message">
+                <div class="headIcon"><img src="./images/headIcon.webp" alt="头像"></div>
+                <div class="contentBox">
+                    <p class="userName">李四</p>
+                    <div class="content">行大运</div>
+                </div>
+                <div class="time">
+                    <div class="delete"><span>×</span></div>
+                    <span>2021.07.12 01:11</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
