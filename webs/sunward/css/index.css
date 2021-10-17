@@ -32,11 +32,11 @@ ul {
 }
 
 html {
-    min-width: 920px;
+    min-width: 1300px;
 }
 
 body {
-    min-width: 920px;
+    min-width: 1300px;
     margin: 0 auto;
     /* min-width: 1080px; */
     /* padding-bottom: 20px; */

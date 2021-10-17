@@ -1,199 +1,226 @@
 html,
 body {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    min-width: 768px;
 }
 
 input {
-  outline: none;
+    outline: none;
 }
+
 button:active {
-  transform: scale(0.95);
+    transform: scale(0.95);
 }
+
 button {
-  border: none;
-  width: 130px;
-  height: 35px;
-  cursor: pointer;
-  line-height: 35px;
-  outline: none;
-  border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0);
-  font-size: 12px;
-  text-transform: uppercase;
-  color: white;
-  transition: transform 85ms ease-in;
+    border: none;
+    width: 130px;
+    height: 35px;
+    cursor: pointer;
+    line-height: 35px;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+    transition: transform 85ms ease-in;
 }
 
 h1 {
-  font-size: 30px;
-  text-transform: capitalize;
+    font-size: 30px;
+    text-transform: capitalize;
 }
+
 .sgin_in {
-  z-index: 10;
+    z-index: 10;
 }
 
 .sgin_up {
-  z-index: 5;
+    z-index: 5;
 }
 
 .container {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 768px;
-  min-height: 480px;
-  background-color: white;
-  box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
-  border-radius: 10px;
-  overflow: hidden;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 768px;
+    min-height: 480px;
+    background-color: white;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .container .form-container {
-  position: absolute;
-  align-items: center;
-  background-color: white;
-  height: 100%;
-  width: 50%;
-  padding: 0 40px;
-  transition: all 0.65s ease-in-out;
+    position: absolute;
+    align-items: center;
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    padding: 0 40px;
+    transition: all 0.65s ease-in-out;
 }
 
 .form-container form {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .form-container .icon i {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 1px solid #ddd;
-  line-height: 38px;
-  text-align: center;
-  color: #333;
-  margin: 20px 8px;
-  font-size: 17px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    line-height: 38px;
+    text-align: center;
+    color: #333;
+    margin: 20px 8px;
+    font-size: 17px;
 }
+
 .form-container .icon i:hover {
-  background-color: #222f3e;
-  color: white;
-  border-color: #cbcbcc;
+    background-color: #222f3e;
+    color: white;
+    border-color: #cbcbcc;
 }
+
 .form-container .input input {
-  width: 100%;
-  height: 40px;
-  margin: 8px 0;
-  background-color: #eeeeee;
-  border: none;
-  font-size: 14px;
-  padding: 0 10px;
+    width: 100%;
+    height: 40px;
+    margin: 8px 0;
+    background-color: #eeeeee;
+    border: none;
+    font-size: 14px;
+    padding: 0 10px;
 }
+
 .form-container .tips p {
-  height: 20px;
-  cursor: pointer;
-  color: #9aa9b7;
-  text-decoration: none;
-  margin: 5px 0 10px;
-  font-size: 12px;
-  text-transform: capitalize;
+    height: 20px;
+    cursor: pointer;
+    color: #9aa9b7;
+    text-decoration: none;
+    margin: 5px 0 10px;
+    font-size: 12px;
+    text-transform: capitalize;
 }
+
 .form-container .tips p:hover {
-  border-bottom: 2px tomato solid;
+    border-bottom: 2px tomato solid;
 }
+
+
 /* 按钮点击效果缩放 */
+
 button:active {
-  transform: scale(0.95);
+    transform: scale(0.95);
 }
+
 .form-container .but button {
-  background-color: #ff4b2b;
+    background-color: #ff4b2b;
 }
+
 .sgin_up .but {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .overlay-container {
-  position: absolute;
-  right: 0;
-  width: 50%;
-  height: 100%;
-  background-color: tomato;
-  overflow: hidden;
-  transition: transform 0.65s ease-in-out;
-  z-index: 100;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: tomato;
+    overflow: hidden;
+    transition: transform 0.65s ease-in-out;
+    z-index: 100;
 }
+
 .overlay-container button {
-  border: 1px solid #fff;
+    border: 1px solid #fff;
 }
+
 .overlay-container p {
-  margin: 10px 0 30px;
+    margin: 10px 0 30px;
 }
+
 .overlay {
-  position: absolute;
-  display: flex;
-  left: -100%;
-  width: 200%;
-  height: 100%;
-  background: linear-gradient(to right, #ff4b2d, #ff426b);
+    position: absolute;
+    display: flex;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, #ff4b2d, #ff426b);
 }
+
 .overlay-penal {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  padding: 0 40px;
-  text-align: center;
-  color: white;
-  font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 0 40px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
 }
 
 .overlay-container .overlay-penal {
-  transition: transform 0.65s ease-in-out;
+    transition: transform 0.65s ease-in-out;
 }
 
 .overlay-left-container {
-  transform: translateX(10%);
+    transform: translateX(10%);
 }
+
 
 /* penal-right-active类名为点击按钮动态添删 */
 
+
 /* 显示注册页 进入页面默认显示登录信息*/
+
 .penal-right-active .sgin_in {
-  z-index: 0;
-}
-/* 移动注册登录到右边 */
-.penal-right-active .form-container {
-  transform: translateX(100%);
+    z-index: 0;
 }
 
+
+/* 移动注册登录到右边 */
+
+.penal-right-active .form-container {
+    transform: translateX(100%);
+}
+
+
 /* 显示注册提示信息 */
+
 .penal-right-active .overlay {
-  transform: translateX(50%);
+    transform: translateX(50%);
 }
 
 .overlay-right-container {
-  transform: translateX(0%);
+    transform: translateX(0%);
 }
 
 .penal-right-active .overlay-right-container {
-  transform: translateX(-10%);
+    transform: translateX(-10%);
 }
 
 .penal-right-active .overlay-left-container {
-  transform: translateX(0%);
+    transform: translateX(0%);
 }
 
+
 /* 移动提示信息到左侧 */
+
 .penal-right-active .overlay-container {
-  transform: translateX(-100%);
+    transform: translateX(-100%);
 }
+
 
 /* input::after {
   font-family: iconfont!important;

@@ -14,6 +14,7 @@ $(() => {
         if (name !== "" && neirong !== "") {
 
             const date = new Date();
+
             const year = date.getFullYear().toString().padStart(2, '0');;
             const month = (date.getMonth() + 1).toString().padStart(2, '0');;
             const day = date.getDate().toString().padStart(2, '0');;
@@ -22,7 +23,7 @@ $(() => {
 
             const html =
                 `<div class="message">
-                    <div class="headIcon"><img src="./images/headIcon.webp" alt="头像"></div>
+                    <div class="headIcon"><img src="https://cdn.jsdelivr.net/gh/debug16/image-hosting@master/sunward/headIcon.4vobxeo6jhg.webp" alt="头像"></div>
                     <div class="contentBox">
                         <p class="userName">${name}</p>
                         <div class="content">${neirong}</div>
@@ -34,6 +35,11 @@ $(() => {
                 </div>`
 
             liuyan.after(html);
+            //清空内容
+            userName.val('');
+            text.val('');
+            userName.focus();
+
             del = $(".delete");
 
             $(del).click(function(e) {
