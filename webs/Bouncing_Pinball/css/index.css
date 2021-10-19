@@ -1,0 +1,30 @@
+html,
+body {
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.round {
+    border-radius: 50%;
+    position: absolute;
+    background-color: #f00;
+    user-select: none;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.stop {
+    left: 200px;
+}
