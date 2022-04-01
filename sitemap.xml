@@ -81,6 +81,20 @@
 
   
   <url>
+    <loc>https://debug16.cn/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2022-04-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://debug16.cn/tags/%E5%8F%82%E6%95%B0/</loc>
+    <lastmod>2022-04-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://debug16.cn/tags/jQuery/</loc>
     <lastmod>2022-04-01</lastmod>
     <changefreq>daily</changefreq>
@@ -123,20 +137,6 @@
   </url>
   
   <url>
-    <loc>https://debug16.cn/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2022-04-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://debug16.cn/tags/%E5%8F%82%E6%95%B0/</loc>
-    <lastmod>2022-04-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://debug16.cn/tags/mysql/</loc>
     <lastmod>2022-04-01</lastmod>
     <changefreq>daily</changefreq>
@@ -144,6 +144,13 @@
   </url>
   
 
+  
+  <url>
+    <loc>https://debug16.cn/categories/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2022-04-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
   <url>
     <loc>https://debug16.cn/categories/jQuery/</loc>
@@ -154,13 +161,6 @@
   
   <url>
     <loc>https://debug16.cn/categories/java/</loc>
-    <lastmod>2022-04-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://debug16.cn/categories/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
